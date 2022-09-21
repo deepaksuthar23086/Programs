@@ -5,12 +5,12 @@ using namespace std;
 int main() {
     int n;
     long factorial = 1;
-    int confrom =1; 
-      while (/* condition */confrom == 1)
+    char confrom = 'y'; 
+      while (/* condition */confrom == 'y')
     {
       
       cout << "Enter a positive integer: ";
-    cin >> n;
+      cin >> n;
   
     if (n < 0)
         cout << "Error! Factorial of a negative number doesn't exist.";
@@ -21,7 +21,7 @@ int main() {
         cout << "Factorial of " << n << " = " << factorial;    
     }
     
-    cout << "\n Restart = 1/0 ";
+    cout << "\n Restart = y/n ";
     cin >> confrom;
     
     } 

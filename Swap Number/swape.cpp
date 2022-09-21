@@ -9,9 +9,6 @@ void swap(int *number_first, int *number_second){
     *number_first = *number_second;
     *number_second = temp;        
 }    
-
-
-
 int main(){
 
     char continueMoreSwap = 'y';

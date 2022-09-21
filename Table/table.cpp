@@ -3,10 +3,10 @@ using namespace std;
 
 int main(){
     
-    int restart = 1;
+    char restart = 'y';
     int number;
 
-    while (restart == 1)
+    while (restart == 'y')
     {
         cout << "Enter Table Number: ";
         cin >> number;
@@ -17,7 +17,7 @@ int main(){
         cout << number << " * " << i << " = " << table << endl;
 
         }
-        cout << "Next Table 1/0 ";
+        cout << "Next Table y/n ;  ";
         cin >> restart;
 
     }      
